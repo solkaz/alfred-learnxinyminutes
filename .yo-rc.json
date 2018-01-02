@@ -1,0 +1,8 @@
+{
+  "generator-alfred": {
+    "promptValues": {
+      "githubUsername": "solkaz",
+      "website": "https://github.com/solkaz/alfred-learnxinyminutes"
+    }
+  }
+}

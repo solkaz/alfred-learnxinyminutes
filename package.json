@@ -1,0 +1,35 @@
+{
+  "name": "alfred-learnxinyminutes",
+  "version": "0.0.0",
+  "description": "Access docs on learnxinyminutes.com from Alfred",
+  "license": "MIT",
+  "repository": "solkaz/alfred-learnxinyminutes",
+  "author": {
+    "name": "JMH",
+    "email": "jheld135@gmail.com",
+    "url": "github.com/solkaz/alfred-learnxinyminutes"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "files": [
+    "index.js",
+    "icon.png",
+    "info.plist"
+  ],
+  "keywords": [
+    "alfred",
+    "workflow",
+    "alfy",
+    "learnxinyminutes"
+  ],
+  "dependencies": {
+    "alfy": "^0.6.0",
+    "jsdom": "^11.5.1",
+    "lodash": "^4.17.4"
+  }
+}
