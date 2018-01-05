@@ -1,13 +1,13 @@
 {
   "name": "alfred-learnxinyminutes",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Access docs on learnxinyminutes.com from Alfred",
   "license": "MIT",
   "repository": "solkaz/alfred-learnxinyminutes",
   "author": {
-    "name": "JMH",
+    "name": "Jeff Held",
     "email": "jheld135@gmail.com",
-    "url": "github.com/solkaz/alfred-learnxinyminutes"
+    "url": "https://github.com/solkaz"
   },
   "engines": {
     "node": ">=4"
@@ -18,6 +18,7 @@
   },
   "files": [
     "index.js",
+    "parser.js",
     "icon.png",
     "info.plist"
   ],

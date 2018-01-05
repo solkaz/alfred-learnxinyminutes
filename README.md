@@ -1,6 +1,6 @@
 # alfred-learnxinyminutes
 
-> Access docs on learnxinyminutes.com from Alfred
+> Access docs on [learnxinyminutes.com](https://learnxinyminutes.com) from Alfred
 
 
 ## Install
@@ -20,3 +20,7 @@ In Alfred, type `lxy`, <kbd>Enter</kbd>, and your query.
 ## License
 
 MIT © [Jeff Held](https://github.com/solkaz/alfred-learnxinyminutes)
+
+## Acknowledgements
+
+Thanks to [Adam Bard](https://github.com/adambard) for allowing me to use `learnxinyminutes.com`'s icon for this project, and, of course, for creating the site that this workflow queries.
