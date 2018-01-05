@@ -2,8 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>name</key>
-	<string>learnxinyminutes</string>
 	<key>bundleid</key>
 	<string>com.solkaz.learnxinyminutes</string>
 	<key>category</key>
@@ -24,34 +22,25 @@
 			</dict>
 		</array>
 	</dict>
+	<key>createdby</key>
+	<string>Jeff Held</string>
+	<key>description</key>
+	<string>Query docs from learnxinyminutes.com</string>
 	<key>disabled</key>
 	<false/>
+	<key>name</key>
+	<string>learnxinyminutes</string>
 	<key>objects</key>
 	<array>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>{query}</string>
-				<key>utf8</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>7C0901FA-27B9-431C-8E82-BC594BE6ADAE</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>alfredfiltersresults</key>
 				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>escaping</key>
@@ -90,6 +79,25 @@
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>{query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>7C0901FA-27B9-431C-8E82-BC594BE6ADAE</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
@@ -98,9 +106,9 @@
 		<key>7C0901FA-27B9-431C-8E82-BC594BE6ADAE</key>
 		<dict>
 			<key>xpos</key>
-			<integer>150</integer>
+			<integer>330</integer>
 			<key>ypos</key>
-			<integer>10</integer>
+			<integer>70</integer>
 		</dict>
 		<key>9C387051-01F6-4E8F-814D-CA7AE78A986E</key>
 		<dict>
@@ -110,5 +118,7 @@
 			<integer>10</integer>
 		</dict>
 	</dict>
+	<key>webaddress</key>
+	<string>https://github.com/solkaz/alfred-learnxinyminutes</string>
 </dict>
 </plist>
