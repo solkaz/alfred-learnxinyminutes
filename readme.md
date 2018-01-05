@@ -1,4 +1,4 @@
-# alfred-learnxinyminutes [![Build Status](https://travis-ci.org/solkaz/alfred-learnxinyminutes.svg?branch=master)](https://travis-ci.org/solkaz/alfred-learnxinyminutes)
+# alfred-learnxinyminutes
 
 > Access docs on learnxinyminutes.com from Alfred
 
@@ -14,7 +14,7 @@ $ npm install --global alfred-learnxinyminutes
 
 ## Usage
 
-In Alfred, type `lxiny`, <kbd>Enter</kbd>, and your query.
+In Alfred, type `lxy`, <kbd>Enter</kbd>, and your query.
 
 
 ## License
