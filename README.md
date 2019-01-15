@@ -1,25 +1,24 @@
-# alfred-learnxinyminutes
+# `alfred-learnxinyminutes`
 
-> Access docs on [learnxinyminutes.com](https://learnxinyminutes.com) from Alfred
+[![npm version](https://badge.fury.io/js/alfred-learnxinyminutes.svg)](https://badge.fury.io/js/alfred-learnxinyminutes)
 
+Access docs on [learnxinyminutes.com](https://learnxinyminutes.com) from Alfred
 
 ## Install
 
 ```
-$ npm install --global alfred-learnxinyminutes
+npm install --global alfred-learnxinyminutes
 ```
 
-*Requires [Node.js](https://nodejs.org) 4+ and the Alfred [Powerpack](https://www.alfredapp.com/powerpack/).*
-
+_Requires [Node.js](https://nodejs.org) 4+ and the Alfred [Powerpack](https://www.alfredapp.com/powerpack/)._
 
 ## Usage
 
-In Alfred, type `lxy`, <kbd>Enter</kbd>, and your query.
-
+In Alfred, type `lxy` followed by a query.
 
 ## License
 
-MIT © [Jeff Held](https://github.com/solkaz/alfred-learnxinyminutes)
+[MIT](./LICENSE)
 
 ## Acknowledgements
 
