@@ -1,6 +1,6 @@
 {
   "name": "alfred-learnxinyminutes",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Access docs on learnxinyminutes.com from Alfred",
   "license": "MIT",
   "repository": "solkaz/alfred-learnxinyminutes",
