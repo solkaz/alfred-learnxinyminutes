@@ -1,6 +1,5 @@
 'use strict';
 const jsdom = require('jsdom');
-const trim = require('lodash/trim');
 
 const { JSDOM } = jsdom;
 const virtualConsole = new jsdom.VirtualConsole();
@@ -27,7 +26,7 @@ const parseRows = html => {
           return {
             // Unfortunately JSDOM doesn't define innerText, so we need to use
             // textContent and then trim whitespaces/newlines
-            name: trim(link.textContent, '\n '),
+            name: (link.textContent || '').trim(),
             // Extract the URL param for this page, then remove the trailing '/'
             link: link.href.slice(linkStartIndex).split('/')[0],
           };
