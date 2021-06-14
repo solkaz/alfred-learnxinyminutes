@@ -10,7 +10,7 @@
     "url": "https://github.com/solkaz"
   },
   "engines": {
-    "node": ">=8"
+    "node": ">=10"
   },
   "scripts": {
     "postinstall": "alfy-init",

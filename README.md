@@ -10,7 +10,7 @@ Access docs on [learnxinyminutes.com](https://learnxinyminutes.com) from Alfred
 npm install --global alfred-learnxinyminutes
 ```
 
-_Requires [Node.js](https://nodejs.org) 8+ and the Alfred [Powerpack](https://www.alfredapp.com/powerpack/)._
+_Requires [Node.js](https://nodejs.org) 10+ and the Alfred [Powerpack](https://www.alfredapp.com/powerpack/)._
 
 ## Usage
 
